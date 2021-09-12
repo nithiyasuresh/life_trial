@@ -1,0 +1,71 @@
+img{
+    width:100% !important;
+    height:100% !important;
+}
+
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;;
+}
+
+.jumbotron {
+    background-image: url("../Images/life.jpg");
+}
+
+.box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-style: italic;
+    font-size: 60px;
+    /* text-shadow: 4px 4px 10px white; */
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      }
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+    /* text-shadow: 4px 4px 10px aqua; */
+}
+
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-style: italic;
+    font-size: 35px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    
+    /* text-shadow: 4px 4px 10px aqua; */
+}
+
+h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-style: italic;
+    font-size: 25px;
+    /* text-shadow: 4px 4px 10px aqua; */
+}
+
+.choro {
+    margin-right: 50px;
+    padding: 10px;
+}
